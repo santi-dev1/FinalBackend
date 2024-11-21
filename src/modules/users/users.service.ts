@@ -28,7 +28,7 @@ export class UsersService {
     //Verifico si hay usuarios
     if(users.length === 0) throw new NotFoundException('No se pudieron encontrar usuarios')
 
-    return users; //Devuelve lista de usuarios
+    return users; //Devuelve una lista de usuarios
   }
 
   // Obtiene usuario por id
